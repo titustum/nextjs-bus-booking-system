@@ -10,12 +10,12 @@ const page = () => {
             <div className='grid'>
                 <label htmlFor="username">Username:</label>
                 <input type="text" name="username" id="username" placeholder='Enter username..'
-                className='px-3 py-2 border rounded-md focus:shadow'/>
+                className='px-3 py-2 border border-black rounded-md focus:shadow'/>
             </div>
             <div className='grid mt-3'>
                 <label htmlFor="username">Password:</label>
                 <input type="text" name="username" id="username" placeholder='Enter username..'
-                className='px-3 py-2 border rounded-md focus:shadow'/>
+                className='px-3 py-2 border border-black rounded-md focus:shadow'/>
             </div>
 
             <button className="w-full mt-6 block text-center mx-auto py-3 px-6 bg-black rounded-md text-white hover:opacity-80">
