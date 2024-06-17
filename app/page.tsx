@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Righteous } from "next/font/google";
 import schoolbusImage from '../public/images/shoolbus.jpg'
+import Link from "next/link";
 
 const righteous= Righteous({ weight: '400', subsets: ['latin'] })
 
@@ -16,12 +17,12 @@ export default function Home() {
             
         </div>
         <div className="shrink-0 grid gap-2 mb-8">
-            <a href="https://schoolbusapp.webesi.co.ke/login" className="w-[90%] block text-center mx-auto py-3 px-6 bg-black rounded-md text-white hover:opacity-80">
+            <Link href={'/login'} className="w-[90%] block text-center mx-auto py-3 px-6 bg-black rounded-md text-white hover:opacity-80">
                 Login
-            </a>
-            <a href="https://schoolbusapp.webesi.co.ke/register" className="w-[90%] block text-center mx-auto py-3 px-6 bg-orange-600 rounded-md text-white hover:opacity-80">
+            </Link>
+            <Link href={'/register'} className="w-[90%] block text-center mx-auto py-3 px-6 bg-orange-600 rounded-md text-white hover:opacity-80">
                 Create Account
-            </a>
+            </Link>
         </div>
     </main>
   );
