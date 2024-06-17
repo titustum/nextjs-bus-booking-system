@@ -22,7 +22,7 @@ const page = () => {
                 Login
             </button>
 
-            <div className='mt-2'>Don't have account yet? <Link href={'/register'} className='text-blue-600 hover:text-orange-600'>Signup</Link></div>
+            <div className='mt-2'>Don&apos;t have account yet? <Link href={'/register'} className='text-blue-600 hover:text-orange-600'>Signup</Link></div>
 
         </form>
     </div>
